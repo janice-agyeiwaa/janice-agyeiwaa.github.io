@@ -14,7 +14,7 @@
   ],
   "location": "Vancouver, BC",
   "email": "owusujanice799@gmail.com",
-   "github": "choco-milo",
+   "github": "janice-agyeiwaa",
   "linkedin": "janice-agyeiwaa-owusu",
   "website": "Profile Page",
   "about": "Geomatics professional, with a passion for using spatial technology to solve real-world environmental and social challenges. My work spans GIS analysis, LiDAR processing, remote sensing, and field surveying - with a particular focus on combating illegal mining, resolving land disputes, and promoting sustainable land management in Ghana and beyond. I bring hands-on experience from telecommunications, data analytics, and community-based mapping projects. I am driven by the belief that geospatial tools can empower communities and drive meaningful, lasting change."},
@@ -60,20 +60,20 @@
     {
       "name": "Forest Canopy Gap Dynamics - Airborne LiDAR Analysis",
       "description": "Processed multi-temporal airborne LiDAR point cloud data spanning 10 years (2012–2022) to assess forest canopy gap dynamics and structural changes. Created derived products including Digital Elevation Models (DEMs) and Canopy Height Models (CHMs) using R-based geospatial workflows and spatial statistics.",
-      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/capstone_README.md",
+      "link": "https://github.com/janice-agyeiwaa/janice-agyeiwaa.github.io/blob/main/capstone_README.md",
       "tools": "R, lidR, ArcGIS Pro, Remote Sensing, Forest Ecology"
     },
     {
       "name": "LiDAR Forest Attribute Mapping - Alex Fraser Research Forest",
       "description": "Built a full airborne LiDAR processing pipeline in R for UBC's Alex Fraser Research Forest - from raw point cloud normalization through CHM generation, plot-level metric extraction, forward stepwise regression modeling, and wall-to-wall spatial prediction. Produced 10 m resolution maps of aboveground biomass and dominant height.",
-      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/gem521_README.md",
+      "link": "https://github.com/janice-agyeiwaa/janice-agyeiwaa.github.io/blob/main/gem521_README.md",
       "tools": "R, lidR, terra, Stepwise Regression, Forest Inventory"
 
     },
        {
       "name": "Terrain Hazard Screening of Harvested Cutblocks - Central BC",
       "description": "Built a terrain-based geohazard index for harvested cutblocks in central British Columbia using a 30m DEM. Derived slope, TWI, RTPI, flow accumulation, and aspect layers in Python with WhiteboxTools, reclassified each into hazard classes, and combined them via a weighted sum. Results showed cutblocks predominantly occupy low-to-moderate hazard terrain.",
-      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/gem530_README.md",
+      "link": "https://github.com/janice-agyeiwaa/janice-agyeiwaa.github.io/blob/main/gem530_README.md",
       "tools": "Python, WhiteboxTools, Rasterio, GeoPandas, QGIS"
 
     },

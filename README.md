@@ -1,8 +1,8 @@
-# choco-milo.github.io
+# janice-agyeiwaa.github.io
 
 Personal portfolio website for **Janice Agyeiwaa Owusu** — Geomatics professional and GIS specialist based in Vancouver, BC.
 
-🌐 **Live site:** [https://choco-milo.github.io](https://choco-milo.github.io)
+🌐 **Live site:** [https://janice-agyeiwaa.github.io](https://janice-agyeiwaa.github.io)
 
 ---
 
@@ -27,8 +27,8 @@ Personal portfolio website for **Janice Agyeiwaa Owusu** — Geomatics professio
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/choco-milo/choco-milo.github.io
-cd choco-milo.github.io
+git clone https://github.com/janice-agyeiwaa/janice-agyeiwaa.github.io
+cd janice-agyeiwaa.github.io
 ```
 
 2. Install dependencies:
