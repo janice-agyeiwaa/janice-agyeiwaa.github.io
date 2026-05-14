@@ -1,0 +1,144 @@
+{
+  "personal":{
+  "name": "JANICE A. OWUSU",
+  "title": "Geomatics Professional & GIS Specialist",
+   "slogans": [
+    "The earth does not belong to us - we belong to the earth.",
+    "Not all those who wander are lost - some are just collecting ground truth data.",
+    "A woman with a map can change the world.",
+    "Where there is no data, there is no justice.",
+    "From Asamankese to Vancouver - every coordinate tells a story.",
+    "Empowered women empower communities.",
+    "The best time to plant a tree was 20 years ago. The second best time is now. - Chinese Proverb",
+    "Do not go where the path may lead; go instead where there is no path and leave a trail."
+  ],
+  "location": "Vancouver, BC",
+  "email": "owusujanice799@gmail.com",
+   "github": "choco-milo",
+  "linkedin": "janice-agyeiwaa-owusu",
+  "website": "Profile Page",
+  "about": "Geomatics professional, with a passion for using spatial technology to solve real-world environmental and social challenges. My work spans GIS analysis, LiDAR processing, remote sensing, and field surveying - with a particular focus on combating illegal mining, resolving land disputes, and promoting sustainable land management in Ghana and beyond. I bring hands-on experience from telecommunications, data analytics, and community-based mapping projects. I am driven by the belief that geospatial tools can empower communities and drive meaningful, lasting change."},
+"skills": {
+  "programmingLanguages": ["Python", "R", "SQL", "JavaScript"],
+  "gisTools": ["ArcGIS Pro", "QGIS", "ArcGIS Online", "PostGIS", "Leaflet", "OpenLayers"],
+  "remoteSensing": ["Airborne LiDAR", "Satellite Imagery", "DEM Creation", "Drone2Map", "Rasterio"],
+  "dataEngineering": ["PostgreSQL", "PostGIS", "MongoDB", "ETL Pipelines", "Data Quality Control"],
+  "fieldTech": ["GPS/GNSS", "Total Stations", "Cadastral Mapping", "AutoCAD"],
+  "otherTools": ["FME", "Git", "Microsoft Office", "LaTeX", "Linux"]
+},      
+"experience": [
+    { "title": "Junior Intelligent Network Operations Analyst",
+      "company": "Telecel Ghana",
+      "link" : "https://www.telecel.com.gh",
+      "duration": "Sept 2024 - July 2025",
+      "logo": "/telecel1.png",
+      "location": "Accra, Ghana",
+      "description": "Managed data quality control for telecommunications systems serving 6M+ subscribers. Developed Python scripts (Paramiko, Pandas) to automate data collection and monitoring. Processed Call Data Records (CDRs) and contributed to the ETL pipeline for a customer loyalty platform. Produced weekly technical reports analyzing system performance.",
+      "tools": "Python, Pandas, Paramiko, Kafka, Nokia Surepay, Microsoft Excel"
+    },
+    { "title": "Data Analyst Intern",
+      "company": "Deep Metrics Inc.",
+      "duration": "Oct 2022 - Dec 2022",
+      "link": "https://countcars.com/",
+      "logo": "/deepmetrics.png",
+      "location": "Missouri, USA (Remote)",
+      "description": "Processed large-scale datasets for computer vision and transportation analytics. Conducted quality assurance on field-collected data and prepared annotated datasets for AI model training. Contributed to model evaluation pipelines for detecting moving vehicles and pedestrians.",
+      "tools": "Python, Computer Vision Tools, YoloV5"
+    },
+    {
+      "title":  "Geomatic Engineering Intern",
+      "company": "Town and Country Planning Department",
+      "duration": "Oct 2021 - Dec 2021",
+      "logo": "/tcplanning1.png",
+       "link" : "",
+      "location": "Asamankese, Ghana",
+      "description": "Conducted field surveys using GPS and total stations for cadastral mapping and boundary delineation. Prepared site plans and technical drawings using AutoCAD for municipal planning projects. Performed spatial analysis of land records to identify encroachment patterns and documentation gaps. Integrated GPS field data into GIS databases and created maps for land-use planning.",
+      "tools": "GPS/GNSS, Total Stations, AutoCAD, ArcGIS, QGIS"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Forest Canopy Gap Dynamics - Airborne LiDAR Analysis",
+      "description": "Processed multi-temporal airborne LiDAR point cloud data spanning 10 years (2012–2022) to assess forest canopy gap dynamics and structural changes. Created derived products including Digital Elevation Models (DEMs) and Canopy Height Models (CHMs) using R-based geospatial workflows and spatial statistics.",
+      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/capstone_README.md",
+      "tools": "R, lidR, ArcGIS Pro, Remote Sensing, Forest Ecology"
+    },
+    {
+      "name": "LiDAR Forest Attribute Mapping - Alex Fraser Research Forest",
+      "description": "Built a full airborne LiDAR processing pipeline in R for UBC's Alex Fraser Research Forest - from raw point cloud normalization through CHM generation, plot-level metric extraction, forward stepwise regression modeling, and wall-to-wall spatial prediction. Produced 10 m resolution maps of aboveground biomass and dominant height.",
+      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/gem521_README.md",
+      "tools": "R, lidR, terra, Stepwise Regression, Forest Inventory"
+
+    },
+       {
+      "name": "Terrain Hazard Screening of Harvested Cutblocks - Central BC",
+      "description": "Built a terrain-based geohazard index for harvested cutblocks in central British Columbia using a 30m DEM. Derived slope, TWI, RTPI, flow accumulation, and aspect layers in Python with WhiteboxTools, reclassified each into hazard classes, and combined them via a weighted sum. Results showed cutblocks predominantly occupy low-to-moderate hazard terrain.",
+      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/gem530_README.md",
+      "tools": "Python, WhiteboxTools, Rasterio, GeoPandas, QGIS"
+
+    },
+    
+    {
+      "name": "Campus Navigation System - KNUST",
+      "description": "Co-developed a web-based GIS navigation application for over 85,000 campus users at KNUST, featuring real-time routing, building search, and points of interest. Conducted extensive GPS field data collection and managed the spatial database of road networks and campus infrastructure.",
+      "link": "https://findmyclassroomknust.netlify.app/map",
+      "tools": "Go, Python, TypeScript with React, PostgreSQL with PostGIS, QGIS, Leaflet"
+    },
+    {
+      "name": "GSuite Geospatial Application",
+      "description": "Collaborated on the development of GSuite, a Python-based desktop application for geomatics and geospatial computations. Contributed to implementing tools for surveying calculations, coordinate transformations, geometry operations, and geospatial file conversions. The application provides an interactive graphical interface that streamlines common geomatics workflows for spatial data processing.",
+      "link": "https://gsuite-app.vercel.app",
+      "tools": "Python, PyQt5, GeoPandas, Fiona, Geopy, SimpleKML, Matplotlib, SQLite"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of British Columbia",
+      "logo": "/ubc.svg",
+      "degree": "Master of Geomatics for Environmental Management (MGEM)",
+      "duration": "May 2025 – April 2026 (Expected)",
+      "link": "https://forestry.ubc.ca/future-students/graduate/professional-masters-degrees/master-of-geomatics-for-environmental-management/",
+      "details": "MCF Scholarship | Capstone: Multi-temporal airborne LiDAR analysis of forest canopy gap dynamics (2012–2022). Relevant coursework: Remote Sensing, Spatial Statistics & Modeling, GIS for Environmental Management, R and Python Programming."
+    },
+    {
+      "institution": "Kwame Nkrumah University of Science and Technology",
+      "logo": "/knust1.png",
+      "link" : "https://www.knust.edu.gh/",
+      "degree": "Bachelor of Science (First Class Honours) – Geomatic Engineering",
+      "duration": "January 2021 – August 2024",
+      "location": "Kumasi, Ghana",
+      "grade": "CGPA: 3.94/4.0 | Top 1% of 166 students",
+      "details": "Thesis: Design and Implementation of a Campus Navigation System at KNUST. Relevant courses: GIS, Remote Sensing, Geodetic Surveying, GNSS, Cartography, Photogrammetry."
+    }
+  ],
+  "certifications": [
+    {
+      "logo": "/esri1.png",
+      "name": "Geographic Information Systems & ArcGIS Pro",
+      "organization": "ESRI Training",
+      "year": "2025",
+      "link" : "/certifications/ESRI_Foundation_Certifications.pdf"
+    },
+    {
+      "logo": "/esri1.png",
+      "name": "Remote Sensing",
+      "organization": "ESRI Training",
+      "year": "2025",
+      "link": "/certifications/ESRI_Foundation_Certifications.pdf"
+    },
+    {
+      "logo": "/fme1.png",
+      "name": "Integrate Data with the FME Platform",
+      "organization": "FME Academy",
+      "year": "2025",
+      "link" : "/certifications/fme_certificate.pdf"
+    },
+    {
+      "logo": "/iau1.png",
+      "name": "Innovation for African Universities Training",
+      "organization": "IAU",
+      "year": "2023",
+      "link": "/certifications/IAU.pdf"
+    }
+  ]
+}
