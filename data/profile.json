@@ -27,6 +27,15 @@
   "otherTools": ["FME", "Git", "Microsoft Office", "LaTeX", "Linux"]
 },      
 "experience": [
+      { "title": "GIS & Spatial Data Project Assistant",
+      "company": "University of British Columbia – Urban Nature Design Research Lab",
+      "link" : "https://park.forestry.ubc.ca/",
+      "duration": "May 2026 - Present",
+      "logo": "/ubc.svg",
+      "location": "Vancouver, BC",
+      "description": "Supporting geospatial research on urban blue-space accessibility in Metro Vancouver by developing reproducible workflows for spatial data cleaning, quality checks, workflow documentation, accessibility analysis, and integration of waterfront park, Census, and Mapbox datasets for spatial and statistical analysis.",
+      "tools": "Python, GeoPandas, OSMnx, ArcPy, ArcGIS Pro, Git"
+    },
     { "title": "Junior Intelligent Network Operations Analyst",
       "company": "Telecel Ghana",
       "link" : "https://www.telecel.com.gh",
@@ -96,9 +105,10 @@
       "institution": "University of British Columbia",
       "logo": "/ubc.svg",
       "degree": "Master of Geomatics for Environmental Management (MGEM)",
-      "duration": "May 2025 – April 2026 (Expected)",
+      "duration": "May 2025 – April 2026",
       "link": "https://forestry.ubc.ca/future-students/graduate/professional-masters-degrees/master-of-geomatics-for-environmental-management/",
-      "details": "MCF Scholarship | Capstone: Multi-temporal airborne LiDAR analysis of forest canopy gap dynamics (2012–2022). Relevant coursework: Remote Sensing, Spatial Statistics & Modeling, GIS for Environmental Management, R and Python Programming."
+      "details": "MCF Scholarship | Capstone: Multi-temporal airborne LiDAR analysis of forest canopy gap dynamics (2012–2022). Relevant coursework: Remote Sensing, Spatial Statistics & Modeling, GIS for Environmental Management, R and Python Programming.",
+      "grade": "Cumulative Average: 94.6%"
     },
     {
       "institution": "Kwame Nkrumah University of Science and Technology",
